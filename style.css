@@ -1,0 +1,78 @@
+body{
+    /* border:solid black; */
+    font-size: 26px;
+    /* width: fit-content; */
+    padding:30px;
+    background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+#title{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+}
+
+
+/* h2{
+    display: flex ;
+    justify-content: center;
+    background-color: black;
+    color:white;
+} */
+
+
+
+.quote p{
+    display:block;
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-style: italic;
+}
+
+
+
+.person{
+    display:block;
+    text-align: center;
+    color:white;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 16px;
+    padding:5px;
+    font-weight: bold;
+    opacity: .7.8;
+    background-color: rgb(155, 153, 153);
+    border-radius: 5px;
+}
+
+button:active{
+    background-color: azure;
+}
+
+
+.all{
+    /* display:flex;
+    justify-content: center; */
+    background-color: black;
+    border:solid white;
+    opacity: .8;
+}
+
+@media (max-width: 470px) {
+   h2{
+    font-size: 30px;
+    text-align: center;
+   }
+  }
