@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
 body{
     font-size: 26px;
     padding:15px;
     border-radius: 20px;
     background-image: url("https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc4NDc4NDg3Nzc0MzMz/ron-swanson-from-parks-and-recreation.jpg");
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxpYnJhcnklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size:contain;
+    font-family:'Alegreya', serif;
 }
 
 #title{
@@ -12,6 +16,11 @@ body{
     background-color: black;
     color:white;
     font-size: 20px;
+    margin-bottom: -15px;
+}
+
+h2{
+    margin-bottom: -20px;
 }
 
 

@@ -1,6 +1,8 @@
 let quote = document.querySelector(".quote");
 let person = document.querySelector(".person");
 let btn = document.querySelector("button");
+let body = document.querySelector("body")
+let title = document.querySelector("h2")
 
 let randomQuoteArray = [
     "That is a canvas sheet—the most versatile object known to man. It can be used to make tents, backpacks, shoes, stretchers, sails, tarpaulins, and I suppose, in the most dire of circumstances, it can be a surface on which to make art.", 
@@ -70,6 +72,7 @@ quote.innerHTML = "<p>" + randomQuoteArray[randomQuote] + "</p>"
 console.log(randomQuote)
 
 person.innerHTML = "<p>" + "Ron Swanson" + "</p>"
-
+body.style.backgroundImage = "url(https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc4NDc4NDg3Nzc0MzMz/ron-swanson-from-parks-and-recreation.jpg)"
+title.innerHTML = "<h3>" + "Swanson Edition" + "</h3>"
 })
 
