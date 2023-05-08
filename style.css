@@ -9,7 +9,9 @@ body {
   padding: 15px;
   border-radius: 20px;
   background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxpYnJhcnklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 85% 15%;
   font-family: "Alegreya", serif;
   background-color: black;
 }
@@ -38,6 +40,8 @@ h3 {
   text-align: center;
   background-color: black;
   color: white;
+  /* padding: 100px; */
+  min-height: 100px;
   font-style: italic;
 }
 
@@ -80,5 +84,14 @@ button:active {
   h2 {
     font-size: 30px;
     text-align: center;
+  }
+  .quote p {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* padding: 100px; */
+    min-height: 400px;
+    font-style: italic;
   }
 }
