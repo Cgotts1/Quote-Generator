@@ -94,4 +94,7 @@ button:active {
     min-height: 400px;
     font-style: italic;
   }
+  body{
+    background-position: 75%;
+  }
 }
